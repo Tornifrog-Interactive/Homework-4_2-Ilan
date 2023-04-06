@@ -58,13 +58,11 @@ public class Player : MonoBehaviour
             _rb.velocity = Vector3.zero;
             this.gameObject.SetActive(false);
             gameOver.gameObject.SetActive(true);
-
         }
         if (collision.gameObject.tag == "Finish")
         {
             youWon.gameObject.SetActive(true);
             enabled = false;
-        
         }
     }
 }
