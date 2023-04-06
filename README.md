@@ -15,3 +15,9 @@ If the player reaches the other side, a "You Won" text will appear. If the playe
 
 ![lGllUgY](https://user-images.githubusercontent.com/74298243/230334930-c6fec48c-2bf4-4781-92c6-8d54ae6b8b68.png)
 
+
+In the Player code, I check for collision between the cars / finish line to know which message to show.
+
+In the car code, I made it so the cars are destroyed after 10 seconds.
+
+In the Spawner code, I used the invoke repeating function instead of the IEnumerate (didn't work for me).
